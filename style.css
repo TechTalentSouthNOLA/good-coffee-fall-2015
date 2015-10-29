@@ -30,3 +30,15 @@ header.jumbotron {
   padding: 40px;
   font-size: 1.2em;
 }
+
+#features {
+  background-color: #A2DED0;
+  color: #323232;
+  font-size: 0.9em;
+  padding-top: 30px;
+}
+
+#features img {
+  /*TODO:  fix image width issue - first image larger than others*/
+  /*max-width: 640px;*/
+}
