@@ -1,0 +1,2 @@
+# Ignore sass-cache folder because we don't need to track changes
+.sass-cache
