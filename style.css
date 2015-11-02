@@ -41,25 +41,19 @@ header.jumbotron {
 
 footer {
   background-color: #D64541; }
-
-footer p {
-  margin-top: 10px; }
-
-footer ul {
-  margin-bottom: 0; }
-
-footer .list-inline li {
-  padding: 10px; }
-
-footer li a {
-  color: #F7FAFE; }
-
-footer li:hover {
-  background-color: #ac2925; }
-
-footer li a:hover {
-  color: #F7FAFE;
-  text-decoration: none; }
+  footer p {
+    margin-top: 10px; }
+  footer ul {
+    margin-bottom: 0; }
+  footer .list-inline li {
+    padding: 10px; }
+    footer .list-inline li a {
+      color: #F7FAFE; }
+      footer .list-inline li a:hover {
+        color: #F7FAFE;
+        text-decoration: none; }
+    footer .list-inline li:hover {
+      background-color: #ac2925; }
 
 .modal {
   color: #777; }

@@ -1,5 +1,10 @@
+// Color Variables
+$color-cream: #F7FAFE;
+$color-red: #D64541;
+$color-red-darker: #ac2925;
+
 body {
-  color: #F7FAFE;
+  color: $color-cream;
   font-family: 'Muli', sans-serif;
 }
 
@@ -47,39 +52,54 @@ header.jumbotron {
   /*max-width: 640px;*/
 }
 
+
+
+
+// *************************
+// * Footer style
+// *************************
 footer {
-  background-color: #D64541;
-}
+  background-color: $color-red;
 
-footer p {
-  margin-top: 10px;
-}
+  p {
+    margin-top: 10px;
+  }
 
-footer ul {
-  margin-bottom: 0;
-}
+  ul {
+    margin-bottom: 0;
+  }
 
-footer .list-inline li {
-  padding: 10px;
-}
+  .list-inline {
+    li {
+      padding: 10px;
 
-footer li a {
-  color: #F7FAFE;
-}
+      a {
+        color: $color-cream;
+        &:hover {
+          color: $color-cream;
+          text-decoration: none;
+        }
+      }
 
-footer li:hover {
-  background-color: #ac2925;
-}
+      &:hover {
+        background-color: $color-red-darker;
+      }
+    }
 
-footer li a:hover {
-  color: #F7FAFE;
-  text-decoration: none;
+
+  }
 }
 
 .modal {
   color: #777;
 }
 
+
+
+
+// *************************
+// * Media Queries
+// *************************
 @media only screen and (max-width: 768px) {
   .jumbotron p {
     display: none;
